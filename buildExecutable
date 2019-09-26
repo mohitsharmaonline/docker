@@ -3,3 +3,4 @@ docker stop helloworld
 docker rm helloworld
 docker build -t hello-world /git/repos/project1.git/
 docker run -d --name helloworld -p 80:80 hello-world
+
